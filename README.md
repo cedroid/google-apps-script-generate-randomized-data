@@ -8,11 +8,11 @@ This function creates 20 new sheets in your current Google Sheets document. Each
 Shuffling Columns: The column headers are shuffled in each sheet to create variability.
 Fake Data Generation: Each column is filled with appropriate fake data. Dates are randomly generated between November 2023 and February 2024. Names are randomly generated as "Guest" followed by a number. Room numbers and prices are also randomly generated.
  
-"shuffleArray"
+# "shuffleArray"
 This utility function takes an array and shuffles its elements in a random order. It's used in createSampleSheets to randomize the order of column headers in each new sheet.
  
-"generateFakeData"
+# "generateFakeData"
 This function generates fake data appropriate to the type of data each column represents. For date-related columns ("Date", "Check-in", and "Check-out"), it creates random dates within a specified range (November 2023 to February 2024). For the "Name" column, it generates a guest name. For "Room", it produces a random room number, and for "Price", a random price value is generated.
  
-"deleteAllSheetsExceptFirst"
+# "deleteAllSheetsExceptFirst"
 This function deletes all sheets in the active Google Spreadsheet, except for the first sheet. This is particularly useful for cleaning up after testing or demonstrations, but should be used with caution to avoid unintentional deletion of important data.
