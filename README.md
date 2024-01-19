@@ -2,7 +2,7 @@
 
 This script is ideal for demonstration purposes, showing how to automate the creation of multiple sheets with randomized data and manage sheets within a Google Spreadsheet programmatically used only to populate google sheets with random data in multiple tabs.
  
-"createSampleSheets"
+# "createSampleSheets"
 This function creates 20 new sheets in your current Google Sheets document. Each sheet is named "SampleSheet" followed by a number (1 through 20). The sheets are populated with shuffled columns and fake data, simulating hotel reservation information. The columns include "Date", "Name", "Room", "Price", "Check-in", and "Check-out".
  
 Shuffling Columns: The column headers are shuffled in each sheet to create variability.
